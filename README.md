@@ -16,6 +16,6 @@ AISA addresses specific architectural concerns including agent coordination, mem
 The specification distinguishes AISA from standard (primarily technical) “AI system architecture” by focusing on enterprise-level abstraction, intent, and cross-cutting metrics, rather than just technical system composition. It also notes the relation to other models/specs (AI-ESA and AASA).
 
 In summary:  
-AISA is a pattern for architecting enterprise AI solutions with emphasis on AI-native principles, orchestration, governance, data-centricity, and responsibility boundaries, providing guidance and anti-patterns, and articulating its fit within the broader enterprise architectural ecosystem.
+AISA is an architectural approach and application pattern for enterprise AI solutions with emphasis on AI-native principles, orchestration, governance, data-centricity, and responsibility boundaries, providing guidance and anti-patterns, and articulating its fit within the broader enterprise architectural ecosystem.
 
 See this [link](docs/aisa-specification.md) for details.
