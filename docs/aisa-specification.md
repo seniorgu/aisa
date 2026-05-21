@@ -24,7 +24,7 @@ It emphasizes:
 
 As an AI-native architectural approach, AISA focuses on AI-specific elements, as shown in the following list (Figure 1). 
 
-![AISA Modeling Elements](..\images\aisa-elements.png "AISA Modeling Elements")
+![AISA Modeling Elements](../images/aisa-elements.png "AISA Modeling Elements")
 
 *Figure 1: AI-Specific Modeling Elements*
 
@@ -44,7 +44,7 @@ AISA architectural patterns mean more architectural usage pattern, orchestration
 
 Note from the Figure 1 pattern example, AI-native still requires app logic, data services, and technical services. but they are NOT the architectural center of gravity.
 
-![AISA Pattern Example](..\images\aisa-pattern-example.png "AISA Pattern Example")
+![AISA Pattern Example](../images/aisa-pattern-example.png "AISA Pattern Example")
 
 *Figure 1: AISA Pattern Example*
 
@@ -52,7 +52,7 @@ Note from the Figure 1 pattern example, AI-native still requires app logic, data
 
 Figure 2 shows an “Isolated Agent Chaos” anti-pattern. This pattern shows that AI-native systems are not merely collections of agents. They require orchestration context continuity, governance, and operational control.
 
-![AISA Anti-Pattern Example](..\images\aisa-anti-pattern-example.png "AISA Anti-Pattern Example")
+![AISA Anti-Pattern Example](../images/aisa-anti-pattern-example.png "AISA Anti-Pattern Example")
 
 *Figure 2: An Anti-Pattern Example*
 
@@ -102,7 +102,7 @@ Based on common understanding, the human–AI responsibility boundary can be lis
 
 ## Roadmap to AISA
 
-![Roadmap to AISA](..\images\aisa-roadmap.png "Roadmap to AISA")
+![Roadmap to AISA](../images/aisa-roadmap.png "Roadmap to AISA")
 
 *Figure 4: Roamap to AISA*
 
