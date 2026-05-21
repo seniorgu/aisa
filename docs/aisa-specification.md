@@ -42,27 +42,27 @@ AISA architectural patterns mean more architectural usage pattern, orchestration
 
 ### An AISA Pattern Example
 
-Note from the Figure 1 pattern example, AI-native still requires app logic, data services, and technical services. but they are NOT the architectural center of gravity.
+Note from the Figure 2 pattern example, AI-native still requires app logic, data services, and technical services. but they are NOT the architectural center of gravity.
 
 ![AISA Pattern Example](../images/aisa-pattern-example.png "AISA Pattern Example")
 
-*Figure 1: AISA Pattern Example*
+*Figure 2: AISA Pattern Example*
 
 ### An Anti-Pattern Example
 
-Figure 2 shows an “Isolated Agent Chaos” anti-pattern. This pattern shows that AI-native systems are not merely collections of agents. They require orchestration context continuity, governance, and operational control.
+Figure 3 shows an “Isolated Agent Chaos” anti-pattern. This pattern shows that AI-native systems are not merely collections of agents. They require orchestration context continuity, governance, and operational control.
 
 ![AISA Anti-Pattern Example](../images/aisa-anti-pattern-example.png "AISA Anti-Pattern Example")
 
-*Figure 2: An Anti-Pattern Example*
+*Figure 3: An Anti-Pattern Example*
 
 ### AISA Canonical Example
 
-Figure 3 shows a canonical example of AISA for an AI-Native Enterprise Assistance Platform.
+Figure 4 shows a canonical example of AISA for an AI-Native Enterprise Assistance Platform.
 
-![AISA Canonical Example](..\images\aisa-canonical-pattern-example.png "AISA Canonical Example")
+![AISA Canonical Example](../images/aisa-canonical-pattern-example.png "AISA Canonical Example")
 
-*Figure 3: AISA Canonical Pattern Example*
+*Figure 4: AISA Canonical Pattern Example*
 
 Unlike general reusable patterns, the canonical pattern focuses on holistic architectural composition and illustrates how multiple patterns can coexist coherently within a unified architectural structure.
 
@@ -104,9 +104,9 @@ Based on common understanding, the human–AI responsibility boundary can be lis
 
 ![Roadmap to AISA](../images/aisa-roadmap.png "Roadmap to AISA")
 
-*Figure 4: Roamap to AISA*
+*Figure 5: Roamap to AISA*
 
-As shown in Figure 4, AI solutions typically begin with LLM applications, then evolve into context engineering and RAG-based systems. This is followed by enterprise solutions, including enterprise-grade multi-agent orchestration, business-context-aware harness engineering, and future self-configurable enterprise platforms. AISA is most applicable in this enterprise stage, where architectural complexity increases and requires structured governance, coordination, and abstraction.
+As shown in Figure 5, AI solutions typically begin with LLM applications, then evolve into context engineering and RAG-based systems. This is followed by enterprise solutions, including enterprise-grade multi-agent orchestration, business-context-aware harness engineering, and future self-configurable enterprise platforms. AISA is most applicable in this enterprise stage, where architectural complexity increases and requires structured governance, coordination, and abstraction.
 
 Each of the stage focuses on:
 
