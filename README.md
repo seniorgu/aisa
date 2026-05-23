@@ -22,6 +22,8 @@ AISA is an architectural approach and application pattern for enterprise AI solu
 
 See this [link](docs/aisa-specification.md) for details.
 
+---
+
 ## Timeline
 
 - 2026-05-23 Initial publication
