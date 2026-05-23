@@ -136,4 +136,6 @@ System architecture is primarily a technical architecture, whereas AISA incorpor
 
 ### ESA vs. SA (Solution Architecture)
 
-For simplicity, ESA (Enterprise Solution Architecture) is often abbreviated as SA (Solution Architecture). In AISA, the term SA also refers to ESA, since AISA is primarily applied to enterprise solutions. Whether a solution is considered enterprise-grade depends on its scale, complexity, and organizational impact.
+For simplicity, ESA (Enterprise Solution Architecture) is often abbreviated as SA (Solution Architecture). In AISA, the term SA also refers to ESA, since AISA is primarily applied to enterprise solutions. Whether a solution is considered enterprise-grade depends on its scale, complexity, and organizational impact. 
+
+In this document, AISA may also be referred to as AIA (AI Architecture) when it effectively represents a solution architecture context.
