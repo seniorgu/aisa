@@ -37,20 +37,6 @@ When opening an issue, include as much detail as possible.
 
 ---
 
-## Pull Requests
-
-Direct contributions are always welcome through pull requests. See this **[how-to-contribute.md](docs/how-to-contribute.md)**.
-
----
-
-# Contribution Guidelines
-
-## Keep Pull Requests Focused
-
-Small, focused pull requests are easier to review and merge.
-
----
-
 ## Check Existing Issues
 
 Before starting major work, check whether a related issue or discussion already exists.
