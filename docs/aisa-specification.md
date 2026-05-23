@@ -24,11 +24,11 @@ It emphasizes:
 
 As an AI-native architectural approach, AISA focuses on AI-specific elements, as shown in the following list (Figure 1). 
 
-![AISA Modeling Elements](../images/aisa-elements.png "AISA Modeling Elements")
+![AISA Modeling Elements](images/aisa-elements.png "AISA Modeling Elements")
 
 *Figure 1: AI-Specific Modeling Elements*
 
-For most AISA solutions, non-AI elements (not shown in the Figure 1) are also used as a supplementary set. For the complete set of AISA modeling elements, refer to the AI-ESA specification (see this [link](https://github.com/seniorgu/ai-esa/blob/main/docs/ai-esa-specification.md)), which AISA modeling is based on.
+For most AISA solutions, closely related elements - such as input, output, and governance control - as well as non-AI elements not shown in Figure 1, are also used as supplementary elements. For the complete set of AISA modeling elements, refer to the AI-ESA specification (see this [link](https://github.com/seniorgu/ai-esa/blob/main/docs/ai-esa-specification.md)), on which AISA modeling is based.
 
 If the solution is AI-augmented in nature, the AASA (AI-Augmented Solution Architecture) architectural approach (see this [link](https://github.com/seniorgu/aasa/blob/main/docs/aasa-specification.md)) can be applied.
 
@@ -44,7 +44,7 @@ AISA architectural patterns mean more architectural usage pattern, orchestration
 
 Note from the Figure 2 pattern example, AI-native still requires app logic, data services, and technical services. but they are NOT the architectural center of gravity.
 
-![AISA Pattern Example](../images/aisa-pattern-example.png "AISA Pattern Example")
+![AISA Pattern Example](images/aisa-pattern-example.png "AISA Pattern Example")
 
 *Figure 2: AISA Pattern Example*
 
@@ -52,7 +52,7 @@ Note from the Figure 2 pattern example, AI-native still requires app logic, data
 
 Figure 3 shows an “Isolated Agent Chaos” anti-pattern. This pattern shows that AI-native systems are not merely collections of agents. They require orchestration context continuity, governance, and operational control.
 
-![AISA Anti-Pattern Example](../images/aisa-anti-pattern-example.png "AISA Anti-Pattern Example")
+![AISA Anti-Pattern Example](images/aisa-anti-pattern-example.png "AISA Anti-Pattern Example")
 
 *Figure 3: An Anti-Pattern Example*
 
@@ -60,7 +60,7 @@ Figure 3 shows an “Isolated Agent Chaos” anti-pattern. This pattern shows th
 
 Figure 4 shows a canonical example of AISA for an AI-Native Enterprise Assistance Platform.
 
-![AISA Canonical Example](../images/aisa-canonical-pattern-example.png "AISA Canonical Example")
+![AISA Canonical Example](images/aisa-canonical-pattern-example.png "AISA Canonical Example")
 
 *Figure 4: AISA Canonical Pattern Example*
 
@@ -102,7 +102,7 @@ Based on common understanding, the human–AI responsibility boundary can be lis
 
 ## Roadmap to AISA
 
-![Roadmap to AISA](../images/aisa-roadmap.png "Roadmap to AISA")
+![Roadmap to AISA](images/aisa-roadmap.png "Roadmap to AISA")
 
 *Figure 5: Roamap to AISA*
 
@@ -124,10 +124,16 @@ AISA uses the AI-ESA (AI Enterprise Solution Architecture) specification for mod
 
 For the relationship and relevance among AI-ESA, AISA, and AASA, see this [link](https://github.com/seniorgu/ai-esa/blob/main/docs/relationship-of-ai-esa-to-aisa-and-aasa.md).
 
-## FAQ: AISA vs. AI System Architecture
+## FAQ (Frequently Asked Questions)
+
+### AISA vs. AI System Architecture
 
 System architecture is primarily a technical architecture, whereas AISA incorporates intent and metrics, introducing a higher level of abstraction to capture key architectural concerns end-to-end. In short:
 
 - AI system architecture = technical system composition
 
 - AISA = enterprise solution architecture abstraction for AI ecosystems
+
+### ESA vs. SA (Solution Architecture)
+
+For simplicity, ESA (Enterprise Solution Architecture) is often abbreviated as SA (Solution Architecture). In AISA, the term SA also refers to ESA, since AISA is primarily applied to enterprise solutions. Whether a solution is considered enterprise-grade depends on its scale, complexity, and organizational impact.

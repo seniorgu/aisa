@@ -18,4 +18,16 @@ The specification distinguishes AISA from standard (primarily technical) “AI s
 In summary:  
 AISA is an architectural approach and application pattern for enterprise AI solutions with emphasis on AI-native principles, orchestration, governance, data-centricity, and responsibility boundaries, providing guidance and anti-patterns, and articulating its fit within the broader enterprise architectural ecosystem.
 
+## Details
+
 See this [link](docs/aisa-specification.md) for details.
+
+## Timeline
+
+- 2026-05-23 Initial publication
+
+---
+
+Shield: ![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg "CC BY 4.0")
+
+This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
