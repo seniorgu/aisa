@@ -1,0 +1,9 @@
+site_name: AISA
+
+nav:
+  - Home: aisa-specification.md
+  - AISA: aisa-specification.md
+
+theme:
+  name: material
+
