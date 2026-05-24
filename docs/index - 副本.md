@@ -1,4 +1,4 @@
-# AISA (AI Solution Architecture) Approach and Application Pattern
+# AISA (AI Solution Architecture) Approach and Application Pattern 
 
 ---
 

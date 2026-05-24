@@ -1,4 +1,4 @@
-site_name: AISA
+site_name: AISA (AI Solution Architecture)
 
 nav:
   - Home: aisa-specification.md
@@ -6,4 +6,10 @@ nav:
 
 theme:
   name: material
+  features: []
+
+nav: []
+
+extra_css:
+  - extra.css
 
