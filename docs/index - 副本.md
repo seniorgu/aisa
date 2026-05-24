@@ -30,7 +30,7 @@ As an AI-native architectural approach, AISA focuses on AI-specific elements, as
 
 For most AISA solutions, closely related elements - such as input, output, and governance control - as well as non-AI elements not shown in Figure 1, are also used as supplementary elements. For the complete set of AISA modeling elements, refer to the AI-ESA specification (see this [link](https://github.com/seniorgu/ai-esa/blob/main/docs/ai-esa-specification.md)), on which AISA modeling is based.
 
-If the solution is AI-augmented in nature, the AASA (AI-Augmented Solution Architecture) architectural approach (see this [link](https://github.com/seniorgu/aasa/blob/main/docs/aasa-specification.md)) can be applied.
+If the solution is AI-augmented in nature, the AASA (AI-Augmented Solution Architecture) architectural approach (see this [link](https://github.com/seniorgu/aasa/)) can be applied.
 
 In simple terms, both AISA and AASA use AI-ESA for enterprise AI solution modeling, but they differ in focus and application scope. For their relevance and relationship, see the following "Related Model Spec and Architecture" section.   
 
