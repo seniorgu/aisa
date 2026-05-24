@@ -100,7 +100,7 @@ Based on common understanding, the human–AI responsibility boundary can be lis
 
 ---
 
-## Roadmap to AIS Architecture
+## Roadmap to AIS Architecture 
 
 ![Roadmap to AISA](images/aisa-roadmap.png "Roadmap to AISA")
 
