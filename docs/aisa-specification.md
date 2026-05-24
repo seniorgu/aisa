@@ -6,7 +6,7 @@
 
 Many organizations are adopting AI without a clear understanding of how to integrate and absorb it into their broader ecosystem. The *AISA Architectural Approach and Application Pattern* provide blueprint-level architectural maps that can be implemented in AI solutions serving business objectives. These approaches are governed by the AI-ESA element specification to ensure shared understanding among key stakeholders and to enable consensus through a common architectural language.
 
-## AISA Architectural Approach
+## AISA Architectural Approach 
 
 AISA is an architectural operationalization approach for AI-native enterprise solutions governed by AI-ESA abstractions. In simple terms, AISA represents an AI-native architectural orientation for adaptive solutions that goes beyond prompts, agents, AI tooling, and isolated AI implementations.
 
