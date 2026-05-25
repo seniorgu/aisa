@@ -9,14 +9,11 @@ The document describes the ASA (AI Solution Architecture) approach and applicati
 - Architectural coordination (orchestration and sustainability under complex AI systems)
 - Data-centric architecture (focus on data flow, transformation, management, and related services)
 
-It outlines key modeling elements needed for AI-native architectures, referencing visuals such as ASA components, patterns, anti-patterns (such as "isolated agent chaos"), canonical patterns, and a roadmap showing the maturity progression of AI solution adoption (from LLM apps to self-configurable autonomous systems).
+It exemplifies key modeling elements needed for AI-native architectures, referencing visuals such as ASA components, patterns, anti-patterns (such as "isolated agent chaos"), canonical patterns, and a roadmap showing the maturity progression of AI solution adoption (from LLM apps to self-configurable autonomous systems).
 
-ASA addresses specific architectural concerns including agent coordination, memory, hallucination containment, governance, human-AI responsibility boundaries, and trust management.
+ASA addresses specific architectural concerns including agent coordination, memory, hallucination containment, governance, human-AI responsibility boundaries, and trust management. It fits within the broader enterprise architectural ecosystem.
 
-The specification distinguishes ASA from standard (primarily technical) “AI system architecture” by focusing on enterprise-level abstraction, intent, and cross-cutting metrics, rather than just technical system composition. It also notes the relation to its foundational model (ASA model spec) and AI-augmented architecture  (ASA+ approach).
 
-In summary:  
-ASA arch is an architectural approach and application pattern for enterprise AI solutions with emphasis on AI-native principles, orchestration, governance, data-centricity, and responsibility boundaries, providing guidance and anti-patterns, and articulating its fit within the broader enterprise architectural ecosystem.
 
 ## Details
 
