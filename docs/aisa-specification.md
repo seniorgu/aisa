@@ -1,14 +1,14 @@
-# AIS (AI Solution) Architectural Approach and Application Pattern
+# AI Solution Architecture (ASA) Approach and Application Pattern
 
 ---
 
 ## Overview
 
-Many organizations are adopting AI without a clear understanding of how to integrate and absorb it into their broader ecosystem. The *AI Solution (AIS) Architectural Approach*, abbreviated as AIS architecture, provides blueprint-level architectural maps that can be implemented in AI solutions serving business objectives. These approaches are governed by the AIS model specification to ensure shared understanding among key stakeholders and to enable consensus through a common architectural language.
+Many organizations are adopting AI without a clear understanding of how to integrate and absorb it into their broader ecosystem. The *AI Solution Architecture (ASA) Approach* provides blueprint-level architectural maps that can be implemented in AI solutions serving business objectives. These approaches are governed by the ASA model specification to ensure shared understanding among key stakeholders and to enable consensus through a common architectural language.
 
-## AIS Architectural Approach
+## ASA Approach
 
-AIS architecture is an architectural operationalization approach for AI-native enterprise solutions governed by AIS model abstractions. In simple terms, AIS architecture represents an AI-native architectural orientation for adaptive solutions that goes beyond prompts, agents, AI tooling, and isolated AI implementations.
+ASA is an architectural operationalization approach for AI-native enterprise solutions governed by ASA model abstractions. In simple terms, ASA architecture represents an AI-native architectural orientation for adaptive solutions that goes beyond prompts, agents, AI tooling, and isolated AI implementations.
 
 It emphasizes:
 
@@ -20,49 +20,49 @@ It emphasizes:
 
 - **Data-centric architecture:** centering on AI and data architecture, including data input and sources, transformation, storage, and management. It also considers key data services such as data orchestration, model reasoning capabilities, knowledge access, context management, data APIs, intent awareness, and data validation loops to better serve enterprise business needs
 
-## AIS Arch Modeling Elements
+## ASA Modeling Elements
 
-As an AI-native architectural approach, AIS Arch focuses on AI-specific elements, as shown in the following list (Figure 1). 
+As an AI-native architectural approach, ASA focuses on AI-specific elements, as shown in the following list (Figure 1). 
 
-![AISA Modeling Elements](images/aisa-elements.png "AISA Modeling Elements")
+![ASA Modeling Elements](images/aisa-elements.png "ASA Modeling Elements")
 
 *Figure 1: AI-Specific Modeling Elements*
 
-For most AIS solutions, closely related elements - such as input, output, and governance control - as well as non-AI elements not shown in Figure 1, are also used as supplementary elements. For the complete set of AIS modeling elements, refer to the AIS model specification (see this [link](https://github.com/seniorgu/ai-esa/blob/main/docs/ai-esa-specification.md)), on which AIS architecture is based.
+For most AI solutions, closely related elements - such as input, output, and governance control - as well as non-AI elements not shown in Figure 1, are also used as supplementary elements. For the complete set of ASA modeling elements, refer to the ASA model specification (see this [link](https://github.com/seniorgu/ai-esa/blob/main/docs/ai-esa-specification.md)), on which ASA appraoch is based.
 
-If the solution is AI-augmented in nature, the AIS+ (AI-Augmented Solution) architectural approach (see this [link](https://github.com/seniorgu/aasa/blob/main/docs/aasa-specification.md)) can be applied.
+If the solution is AI-augmented in nature, the ASA+ (AI-Augmented Solution Architecture) approach (see this [link](https://github.com/seniorgu/aasa/blob/main/docs/aasa-specification.md)) can be applied.
 
-In simple terms, both AIS and AIS architectures use AIS model elements for enterprise AI solution modeling, but they differ in focus and application scope. For their relevance and relationship, see the following "Related Model Spec and Architecture" section.   
+In simple terms, both ASA and ASA+ approaches use ASA model elements for enterprise AI solution modeling, but they differ in focus and application scope. For their relevance and relationship, see the following "Related Model Spec and Architecture" section.   
 
 ---
 
-## AIS Architectural Pattern & Example
+## ASA Pattern & Example
 
-AIS architectural patterns mean more architectural usage pattern, orchestration pattern, operational topology, governance and architectural mapping patterns, rather than software design patterns or normative architectural style patterns.
+ASA patterns mean more architectural usage pattern, orchestration pattern, operational topology, governance and architectural mapping patterns, rather than software design patterns or normative architectural style patterns.
 
-### An AIS Pattern Example
+### An ASA Pattern Example
 
 Note from the Figure 2 pattern example, AI-native still requires app logic, data services, and technical services. but they are NOT the architectural center of gravity.
 
-![AISA Pattern Example](images/aisa-pattern-example.png "AISA Pattern Example")
+![ASA Pattern Example](images/aisa-pattern-example.png "ASA Pattern Example")
 
-*Figure 2: AIS Pattern Example*
+*Figure 2: ASA Pattern Example*
 
 ### An Anti-Pattern Example
 
 Figure 3 shows an “Isolated Agent Chaos” anti-pattern. This pattern shows that AI-native systems are not merely collections of agents. They require orchestration context continuity, governance, and operational control.
 
-![AISA Anti-Pattern Example](images/aisa-anti-pattern-example.png "AISA Anti-Pattern Example")
+![ASA Anti-Pattern Example](images/aisa-anti-pattern-example.png "ASA Anti-Pattern Example")
 
 *Figure 3: An Anti-Pattern Example*
 
-### AIS Canonical Example
+### ASA Canonical Example
 
-Figure 4 shows a canonical example of AIS architectural pattern for an AI-Native Enterprise Assistance Platform.
+Figure 4 shows a canonical example of ASA architectural pattern for an AI-Native Enterprise Assistance Platform.
 
-![AISA Canonical Example](images/aisa-canonical-pattern-example.png "AISA Canonical Example")
+![ASA Canonical Example](images/aisa-canonical-pattern-example.png "ASA Canonical Example")
 
-*Figure 4: AIS Canonical Pattern Example*
+*Figure 4: ASA Canonical Pattern Example*
 
 Unlike general reusable patterns, the canonical pattern focuses on holistic architectural composition and illustrates how multiple patterns can coexist coherently within a unified architectural structure.
 
@@ -100,13 +100,13 @@ Based on common understanding, the human–AI responsibility boundary can be lis
 
 ---
 
-## Roadmap to AIS Architecture 
+## Roadmap to ASA Architecture
 
-![Roadmap to AISA](images/aisa-roadmap.png "Roadmap to AISA")
+![Roadmap to ASA](images/aisa-roadmap.png "Roadmap to ASA")
 
-*Figure 5: Roamap to AIS Architecture*
+*Figure 5: Roamap to ASA Architecture*
 
-As shown in Figure 5, AI solutions typically begin with LLM applications, then evolve into context engineering and RAG-based systems. This is followed by enterprise solutions, including enterprise-grade multi-agent orchestration, business-context-aware harness engineering, and future self-configurable enterprise platforms. AIS architecture is most applicable in this enterprise stage, where architectural complexity increases and requires structured governance, coordination, and abstraction.
+As shown in Figure 5, AI solutions typically begin with LLM applications, then evolve into context engineering and RAG-based systems. This is followed by enterprise solutions, including enterprise-grade multi-agent orchestration, business-context-aware harness engineering, and future self-configurable enterprise platforms. ASA is most applicable in this enterprise stage, where architectural complexity increases and requires structured governance, coordination, and abstraction.
 
 Each of the stage focuses on:
 
@@ -120,6 +120,6 @@ Each of the stage focuses on:
 
 ## Related Model Spec and Architecture
 
-AIS architecture uses the AIS model specification and maintains a close relationship with AIS+ (AI-Augmented Solution Architecture).
+ASA uses its model specification and maintains a close relationship with ASA+ (AI-Augmented Solution Architecture).
 
-For the relationship and relevance among AIS model, AIS architecture, and AIS+ architecture, see this [link](https://github.com/seniorgu/ai-esa/blob/main/docs/relationship-of-ai-esa-to-aisa-and-aasa.md).
+For the relationship and relevance among ASA model and approach, and ASA+ approach, see this [link](https://github.com/seniorgu/ai-esa/blob/main/docs/relationship-of-ai-esa-to-aisa-and-aasa.md).
