@@ -13,7 +13,7 @@ It outlines key modeling elements needed for AI-native architectures, referencin
 
 ASA addresses specific architectural concerns including agent coordination, memory, hallucination containment, governance, human-AI responsibility boundaries, and trust management.
 
-The specification distinguishes ASA from standard (primarily technical) “AI system architecture” by focusing on enterprise-level abstraction, intent, and cross-cutting metrics, rather than just technical system composition. It also notes the relation to its foundational model (ASA model spec) and AI-augmented architecture  (AIS+ approach).
+The specification distinguishes ASA from standard (primarily technical) “AI system architecture” by focusing on enterprise-level abstraction, intent, and cross-cutting metrics, rather than just technical system composition. It also notes the relation to its foundational model (ASA model spec) and AI-augmented architecture  (ASA+ approach).
 
 In summary:  
 ASA arch is an architectural approach and application pattern for enterprise AI solutions with emphasis on AI-native principles, orchestration, governance, data-centricity, and responsibility boundaries, providing guidance and anti-patterns, and articulating its fit within the broader enterprise architectural ecosystem.

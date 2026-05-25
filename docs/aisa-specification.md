@@ -70,7 +70,7 @@ Unlike general reusable patterns, the canonical pattern focuses on holistic arch
 
 ## Architectural Concerns
 
-AIS architecture helps clarify architectural solution concerns in the following areas:
+ASA architecture helps clarify architectural solution concerns in the following areas:
 
 - agent coordination, and adaptive workflows,
 
