@@ -4,7 +4,7 @@
 
 ## Overview
 
-Many organizations are adopting AI without a clear understanding of how to integrate and absorb it into their broader ecosystem. The *AI Solution Architecture (ASA) Approach* provides blueprint-level architectural maps that can be implemented in AI solutions serving business objectives. These approaches are governed by the ASA model specification to ensure shared understanding among key stakeholders and to enable consensus through a common architectural language.
+Many organizations are adopting AI without a clear understanding of how to integrate and absorb it into their broader ecosystem. The *AI Solution Architecture (ASA) Approach* provides blueprint-level architectural maps that can be implemented in AI solutions serving business objectives. The approach is governed by the ASA model specification to ensure shared understanding among key stakeholders and to enable consensus through a common architectural language.
 
 ## ASA Approach
 
