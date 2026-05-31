@@ -22,13 +22,26 @@ It emphasizes:
 
 ## ASA Modeling Elements
 
-As an AI-native architectural approach, ASA focuses on AI-specific elements, as shown in the following list (Figure 1). 
+As an AI-native architectural approach, ASA focuses on AI-specific elements, as shown in the following list (Figure 1) briefly defined in Table 1. 
 
 ![ASA Modeling Elements](images/aisa-elements.png "ASA Modeling Elements")
 
 *Figure 1: AI-Specific Modeling Elements*
 
-For most AI solutions, closely related elements - such as input, output, and governance control - as well as non-AI elements not shown in Figure 1, are also used as supplementary elements. For the complete set of ASA modeling elements, refer to the ASA model specification (see this [link](https://github.com/seniorgu/ai-esa/blob/main/docs/ai-esa-specification.md)), on which ASA appraoch is based.
+| Element                               | Prefix | Brief Definition                                                                                                                           |
+| ------------------------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| AI Agent                              | AG     | Represents an autonomous AI entity capable of goal-directed reasoning, planning, and action.                                               |
+| AI Orchestrator (Coordinator)         | AC     | Represents the coordination logic, workflow control, and multi-agent management that sequences and routes AI operations.                   |
+| Context Management (Memory State)     | CN     | Represents the mechanisms for managing conversational state, memory, prompt engineering, and interaction coherence.                        |
+| AI Model (Reasoning)                  | ML     | Represents the models, inference engines, and reasoning frameworks that generate predictions, decisions, or outputs.                       |
+| Knowledge Service (Access and Config) | KA     | Represents the semantic retrieval, RAG, embedding, and knowledge management capabilities that ground AI responses in relevant information. |
+| Tools                                 | TL     | Represents external functions, plugins, and third-party services that extend AI capabilities through invocation.                           |
+
+*Table 1: Key AI-Specifica Elements*
+
+The six key AI architecture elements have a matching acronym "tockam" (first letter of each element in Table 1) pronounced as "token." The tockam is mnemonic. 
+
+For most AI solutions, closely related elements - such as input, output, and governance control - as well as non-AI elements (not shown in Figure 1) are also used as supplementary elements. For the complete set of ASA modeling elements, refer to the ASA model specification (see this [link](https://github.com/seniorgu/ai-esa/blob/main/docs/ai-esa-specification.md)), on which ASA appraoch is based.
 
 If the solution is AI-augmented in nature, the ASA+ (AI-Augmented Solution Architecture) approach (see this [link](https://github.com/seniorgu/aasa/blob/main/docs/aasa-specification.md)) can be applied.
 
