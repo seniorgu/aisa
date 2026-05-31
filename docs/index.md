@@ -1,3 +1,3 @@
-### Table of Contents
+### AI Solution Architecture (ASA) Approach
 
-[ASA Approach Specification](aisa-specification.md "ASA Approach Specification")
+- [ASA Approach Specification](https://github.com/seniorgu/ai-esa/blob/main/docs/aisa-specification.md)
