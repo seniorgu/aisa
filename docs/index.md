@@ -1,4 +1,11 @@
-### AI Solution Architecture (ASA) Approach
+# AI Solution Architecture (ASA) Approach (Web Version)
 
-- [ASA Approach Specification](https://github.com/seniorgu/aisa/blob/main/docs/aisa-specification.md)
+---
+
+### ASA Approach Specification
+
 - [ASA Approach Specification html](https://seniorgu.github.io/aisa/aisa-specification.html)
+
+### Frequently Asked Questions on ASA
+
+1. [Key ASA Elements (TOCKAM) Definition List](https://seniorgu.github.io/aisa/faq/token-def.html)
