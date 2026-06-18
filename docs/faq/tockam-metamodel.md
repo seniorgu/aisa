@@ -221,3 +221,7 @@ This is typically the architecture pattern that scales best in enterprise soluti
 The fundamental difference between AI-specific and non-AI elements: autonomy vs. automation.
 
 > Automation is linear (If-This-Then-That); Autonomy is recursive (Goal-Seeking)
+
+## What are the common, simple definitions and differences between AI tools, AI agents, and agentic AI?
+
+Generally, AI Tools have a narrow scope, limited to a specific function. AI Agents have a relatively broad scope, operating autonomously across contexts. Agentic AI is a commonly used multi-agent ecosystem composed of specialised agents that collaborate with one another or are orchestrated.
