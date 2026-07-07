@@ -5,7 +5,7 @@ nav:
   - AISA: aisa-specification.md
 
 theme:
-  name: material
+  name: mkdocs
   features: []
 
 nav: []
