@@ -7,6 +7,11 @@
 - [ASA Approach Specification html](https://seniorgu.github.io/aisa/aisa-specification.html)
 - [Key ASA Elements (TOCKAM) Definition List](https://seniorgu.github.io/aisa/faq/token-def.html)
 
+### Supported AI Skill Tool
+
+> Use **ArchView** **AI Skill Tool** for quick ASA model views. See this [link](https://a-esa.com/archview-an-ai-skill-for-quick-solution-architecture/) for intro and installation.
+>
+
 ### Frequently Asked Questions on ASA
 
 1. [FAQs on the TOCKAM Metamodel](https://seniorgu.github.io/aisa/faq/tockam-metamodel.html)
