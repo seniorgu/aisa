@@ -10,7 +10,10 @@
 ### Supported AI Skill Tool
 
 > Use **ArchView** **AI Skill Tool** for quick ASA model views. See this [link](https://a-esa.com/archview-an-ai-skill-for-quick-solution-architecture/) for intro and installation.
+<<<<<<< Updated upstream
 >
+=======
+>>>>>>> Stashed changes
 
 ### Frequently Asked Questions on ASA
 
